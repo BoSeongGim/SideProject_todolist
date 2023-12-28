@@ -1,0 +1,13 @@
+https://youtu.be/7LNl2JlZKHA
+mkdir flask-server
+cd flask-server
+touch server.py
+
+python3 -m venv venv //02:02
+source venv/bin/activate //(venv)mode
+pip3 install Flask
+
+//write server.py ....
+python3 server.py //in flask-server folder
+
+

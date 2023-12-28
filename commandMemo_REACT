@@ -1,0 +1,18 @@
+npx create-react-app client //[me] npx create-react-app front
+
+//delete files ( pwd:/Users/gimboseong/Documents/GitHub/todolist/front/src )
+(1)App.test.js
+(2)index.css
+(3)log.svg
+
+//modify files ( pwd:/Users/gimboseong/Documents/GitHub/todolist/front/src )
+(1)index.js
+   import './index.css'; //remove this code.
+(2)package.json
+  "proxy": "http://localhost:5000", //add this code.
+
+(3)App.js
+
+cd front
+npm start
+
