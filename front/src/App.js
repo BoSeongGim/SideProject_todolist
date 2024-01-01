@@ -1,6 +1,12 @@
 import  React, { useState, useEffect } from 'react'
+import { MainPage } from './pages';
 
 function App() {
+    return<MainPage />;
+
+
+//----FLASK server test data--------
+    /*
     //receive data from
     const [data, setData] = useState([{}])
     useEffect(() =>{
@@ -28,6 +34,7 @@ function App() {
         )}
     </div>
     );
+    */
 }
 
 export default App
