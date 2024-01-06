@@ -1,5 +1,5 @@
 import './main.css';
-import { CommonModal } from "components";
+import { useState } from "react";
 
 function MainPage(){
     return(
@@ -31,7 +31,6 @@ function MainPage(){
                     </article>
                 </section>
         </main>
-        <CommonModal />
     </>
     );
 }

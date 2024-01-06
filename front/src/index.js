@@ -5,7 +5,6 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 
 import './styles/index.css';
-//import './components';
 import { CommonModal } from './components';
 
 //console.log(variable);

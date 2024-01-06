@@ -1,8 +1,16 @@
-import  React, { useState, useEffect } from 'react'
+import  React, { useState, useEffect } from 'react';
 import { MainPage } from './pages';
+import { CommonModal } from './components';
 
 function App() {
-    return<MainPage />;
+    const [isOpen, setIsOpen] = useState(false);
+
+    return(
+    <div>
+        <button onClick={() => setIsOpen(true)}>modal test</button>
+        <CommonModal isOpen={isOpen} />
+        <MainPage />
+    </div>);
 
 
 //----FLASK server test data--------

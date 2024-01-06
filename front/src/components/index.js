@@ -1,1 +1,1 @@
-export {default as CommonModal } from "./modals";
+export { default as CommonModal } from './modal';
