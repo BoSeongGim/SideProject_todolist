@@ -20,6 +20,29 @@ h1{
     justify-content:space-between;
 }
 
+.topNavigationBar > time {
+    font-size:24px;
+}
+
+.addButton {
+    user-select : none;
+    outline: none;
+    font-size:20px;
+    //cursor: pointer;
+    color: #858c97;
+    border-color: #c2cad4;
+    padding:20px;
+    -moz-box-shadow: 6px 3px 10px 9px #dddddd;
+    background-color: #ffffff;
+    border-radius:8px;
+}
+
+.addButton:hover {
+    color: #ced0da;
+    border-color: aaafb9;
+}
+
+
 .todoList{
     width:100%;
     display:flex;
@@ -29,9 +52,10 @@ h1{
 }
 
 .todoItem{
-    margin-top: 10px;
+    margin-top: 20px;
     padding-left:10px;
-    width:100%;
+    padding-right:10px;
+    width:99%;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -39,18 +63,51 @@ h1{
     padding-bottom:10px;
     border-radius: 8px;
     cursor: pointer;
-    moz-box-shadow: 6px 3px 10px 9px #dddddd;
     box-shadow: 6px 3px 10px 9px #dddddd;
+}
+
+.todoItem button{
+    user-select : none;
+    outline: none;
+    font-size:12px;
+    cursor: pointer;
+    padding:8px;
+    margin:8px;
+    background-color: #ffffff;
+    border-radius:4px;
 }
 
 .todoTitle{
     font-size:24px;
-    font-weight:500;
-    margin-bottom:10px;
+    //font-weight:500;
+    //margin-bottom:10px;
+    cursor:pointer;
+    //background-color:red;
 }
 
 .createdDate{
     font-size:12px;
     font-weight:400px;
     color: gray;
+}
+
+.editButton{
+    color: #808080;
+    border: 1px solid #808080;
+}
+
+.editButton:hover{
+    color: #aaaaaa;
+    border: 1px solid #aaaaaa;
+}
+
+
+.deleteButton{
+    color: #f42d16;
+    border: 1px solid #f42d16;
+}
+
+.deleteButton:hover{
+    color: #f65745;
+    border: 1px solid #f65745;
 }
