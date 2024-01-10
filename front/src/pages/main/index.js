@@ -1,5 +1,9 @@
 import './main.css';
 import { useState } from "react";
+//import { CommonModal } from "component";
+import dayjs from "dayjs"; // yarn add dayjs
+
+dayjs.locale("jp");
 
 function MainPage(){
     return(
@@ -7,7 +11,7 @@ function MainPage(){
         <main>
             <h1>My To Do List</h1>
                 <div className="topNavigationBar">
-                    <time> Today : yyyy.mm.dd </time>
+                    <time> Today : {dayjs().format('YYYY-MM-DD')} </time>
                     <button type="button" className="addButton">
                         list Add
                     </button>
