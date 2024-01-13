@@ -16,3 +16,11 @@ npx create-react-app client //[me] npx create-react-app front
 cd front
 npm start
 
+-------------------------------------------------------------------------------
+retry(2024-01-13)
+
+npx create-react-app front
+yarn add react-icon
+yarn add dayjs
+
+yarn start

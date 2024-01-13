@@ -1,17 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
-
+import ReactDOM from 'react-dom';
 import App from './App';
 
-import './styles/index.css';
-import { CommonModal } from './components';
-
-//console.log(variable);
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
+  <React.StrictMode>
     <App />
+  </React.StrictMode>,
+  document.getElementById('root')
 );
-
-reportWebVitals();
